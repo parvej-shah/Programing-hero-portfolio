@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared Styled */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.primary-btn{
+    border-radius: 5px;
+    border: none;
+    padding: 15px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #FD6E0A;
+    cursor: pointer;
+}
+.primary-bg{
+    background-color: #FFF8F3;
+}
+.text-center{
+    text-align: center;
+}
+.text-bold{
+    font-weight: bold;
+}
+.dark-3{
+    color: #757575;
+}
+/* nav styles */
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+}
+nav{
+    margin-right: 230px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header{
+    padding-left: 200px;
+    background-image: url(/Programing-hero-portfolio/images/developer.png), url(/Programing-hero-portfolio/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+.nav-item{
+    font-size: 20px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-right img{
+    width: 584px;
+    height: 676px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.developer-info{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+.grettings{
+    font-weight: 600;
+    font-size: 45px;
+}
+.hero .name{
+    font-size: 85px;
+    font-weight: bold;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    margin: 100px 150px;
+
+}
+.about{
+    width: 827px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.bio{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.experience-header{
+    margin: 0 200px;
+}
+.ex-icon{
+    height: 44px;
+    width: 44px;
+}
+.experience-card{
+    width: 267px;
+    height: 377px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.experience-card h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+.experience-cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px 100px 100px 100px;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px 100px 30px 100px;
+}
+.skill{
+    margin-top: 20px;
+}
+.skill-description{
+    margin: 10px 0px;
+    font-size: 16px;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.social-icon{
+    color: #FD6E0A;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+}
+button.contact{
+background-color: white;
+color: #FD6E0A;
+border: 1px solid #FD6E0A;
+}

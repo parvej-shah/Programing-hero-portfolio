@@ -181,6 +181,9 @@ header {
 }
 .social-icon {
   color: #fd6e0a;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
 footer {
   padding: 130px 230px;
@@ -202,6 +205,15 @@ footer textarea {
   border-radius: 5px;
   background-color: white;
 }
+.social-icons{
+  height: 32px;
+  width: 32px;
+}
+.social-icons>i{
+  width: 100%;
+  height: 100%;
+  font-size: 32px;
+}
 button.contact {
   background-color: white;
   color: #fd6e0a;
@@ -217,7 +229,12 @@ button.contact {
         padding: 10px;
         background-image: none;
       }
-    .hero{
+    .hero,
+    .bio,
+    .buttons,
+    .experience-cards,
+    .resume-container,
+    footer{
         flex-direction: column;
     }
     .hero-right{
@@ -225,19 +242,39 @@ button.contact {
         height: auto;
     }
     .hero .grettings{
-        font-size: 2.8em;
+        font-size: 2.5em;
     }
     .hero .name{
-        font-size: 3.5em;
+        font-size: 3.4em;
     }
     nav{
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 5px;
-      padding-top: 5px 0 10px 0;
+      padding: 5px 0 10px 0;
     }
-    .buttons{
-      flex-direction: column;
+    .about-content{
+      margin: 100px 5px;
+      padding: 70px 15px;
     }
+    .experience-header{
+      margin: 10px;
+    }
+    .experience-cards,
+    .resume-container{
+      margin: 30px 10px 50px 10px;
+      align-items: center;
+    }
+    footer{
+      padding: 100px 10px ;
+    }
+    .footer-column{
+      width: auto;
+    }
+    footer input[type="text"],
+footer input[type="email"],
+footer textarea{
+  width: calc(100% - 40px);
+}
 }
